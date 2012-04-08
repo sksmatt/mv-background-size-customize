@@ -97,7 +97,7 @@ if ( ! function_exists( 'mv_background_size_sanitize_background_size' ) ) {
 if ( ! function_exists( 'mv_background_size_output_callback' ) ) {
     function  mv_background_size_output_callback() {
         $style = get_theme_mod( 'mv_background_size', 'auto' );
-        printf( '<style type="text/css"> body.custom-background { -webkit-background-size: %1$s; -moz-background-size: %1$s; background-size: %1$s; } </style>', trim( $style ) );
+        printf( '<style type="text/css"> body.custom-background { -webkit-background-size: %1$s; -moz-background-size: %1$s; background-size: %1$s; } </style>'."\n", trim( $style ) );
     }
 }
 
