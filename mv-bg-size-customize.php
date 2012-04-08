@@ -60,7 +60,7 @@ if ( ! function_exists( 'mv_customize_background_size_control' ) ) {
 			'visibility'        => 'background_image', 
 			'theme_supports'    => 'custom-background', 
 			'type'              => 'radio', 
-		    'choices'           => array( 
+			'choices'           => array( 
     		            'auto'      => __( 'Auto', 'mv-customize-background-size' ), 
     		            'contain'   => __( 'Contain', 'mv-customize-background-size' ), 
     		            'cover'     => __( 'Cover', 'mv-customize-background-size' ),
